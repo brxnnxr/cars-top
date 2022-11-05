@@ -1,22 +1,24 @@
 import { CarYellowImage } from '../../Components';
-import './styles.css';
-
+import { Card, Catalog, Container } from './styles';
 export const Home = () => {
   return (
-    <div className="home-container">
-      <div className="base-card home-card">
-        <div className="home-image-container">
+    <Container>
+      <Card>
+        <div>
           <CarYellowImage />
         </div>
-        <h1>O carro perfeito para você</h1>
-        <p>
-          Conheça nossos carros e dê mais um passo na realização do seu sonho
-        </p>
-      </div>
-      <div className="home-content-container">
+
+        <div className="text-container">
+          <h1>O carro perfeito para você</h1>
+          <p>
+            Conheça nossos carros e dê mais um passo na realização do seu sonho
+          </p>
+        </div>
+      </Card>
+      <Catalog>
         <button>VER CATÁLOGO</button>
         <p>Comece agora a navegar</p>
-      </div>
-    </div>
+      </Catalog>
+    </Container>
   );
 };

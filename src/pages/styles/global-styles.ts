@@ -1,7 +1,20 @@
+import {createGlobalStyle} from 'styled-components/'
+
+const GlobalStyles = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 * {
   font-family: 'roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --primary: #F78B00;
+  --second: #00285F;
+  --white: #fff;
+  --clean-gray: #EDEDED;
 }
 
 h1,
@@ -16,8 +29,8 @@ h6 {
 
 a,
 a:hover {
-  text-decoration: none !important;
-  color: unset !important;
+  text-decoration: none ;
+  color: unset;
 }
 
 li {
@@ -29,3 +42,6 @@ li {
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 }
+`
+
+export default GlobalStyles

@@ -23,9 +23,11 @@ export const Container = styled.nav`
   
 `;
   export const Menu = styled.div `
+  display: flex;
   background-color: var(--primary);
   padding-left: 20px;
   padding-bottom: 30px;
+  width: 100%;
 
 
     a {

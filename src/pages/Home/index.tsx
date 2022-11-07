@@ -1,5 +1,6 @@
 import { CarYellowImage } from '../../Components';
 import { Card, Catalog, Container } from './styles';
+
 export const Home = () => {
   return (
     <Container>

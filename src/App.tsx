@@ -1,11 +1,15 @@
-import Navbar from './Components/NavBar';
-import { Home } from './pages/Home';
+// import Navbar from './Components/NavBar';
+// import { Home } from './pages/Home';
+
+import Catalog from './Components/Catalog';
 
 const App = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar />
       <Home />
+      <ProductCard /> */}
+      <Catalog />
     </>
   );
 };

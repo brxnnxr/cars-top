@@ -17,6 +17,10 @@ const GlobalStyles = createGlobalStyle`
   --clean-gray: #EDEDED;
 }
 
+button {
+  border:none;
+}
+
 h1,
 h2,
 h3,

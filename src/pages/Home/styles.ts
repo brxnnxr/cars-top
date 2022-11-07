@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const Container = styled.div `
  height: 650px;
  width: 100%;
- padding: 20px 10px
+ padding: 20px 10px;
 `
 export const Card = styled.div `
   display: flex;

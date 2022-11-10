@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { CarYellowImage } from '../../Components';
 import { Card, Catalog, Container } from './styles';
 
@@ -17,7 +18,9 @@ export const Home = () => {
         </div>
       </Card>
       <Catalog>
-        <button>VER CATÁLOGO</button>
+        <Link to="/catalog">
+          <button>VER CATÁLOGO</button>
+        </Link>
         <p>Comece agora a navegar</p>
       </Catalog>
     </Container>

@@ -20,6 +20,12 @@ export const Container = styled.nav`
     width: 35px;
     height: 20px;
   }
+
+  @media (min-width: 768px ) {
+    span {
+      display: none;
+    }
+  }
   
 `;
   export const Menu = styled.div `
@@ -29,17 +35,32 @@ export const Container = styled.nav`
   padding-bottom: 30px;
   width: 100%;
 
+ 
 
     a {
       color: var(--second);
       font-size: 18px;
     }
 
-    a:hover {
-      color: #fff;
-    }
-
+      a.active {
+      color: var(--second);
+      font-weight: bold;
+}
     
- `;
+ `
+
+export const Content = styled.div `
+
+   display: flex;
+   width: 100%;
+   max-width: 980px;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 auto;
+
+ 
+
+`
+
 
 

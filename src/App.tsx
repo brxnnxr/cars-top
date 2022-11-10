@@ -1,17 +1,8 @@
-// import Navbar from './Components/NavBar';
-// import { Home } from './pages/Home';
-
-import Catalog from './Components/Catalog';
+import './pages/styles/global-styles';
+import Routes from './Routes';
 
 const App = () => {
-  return (
-    <>
-      {/* <Navbar />
-      <Home />
-      <ProductCard /> */}
-      <Catalog />
-    </>
-  );
+  return <Routes />;
 };
 
 export default App;

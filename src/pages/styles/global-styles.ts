@@ -15,10 +15,15 @@ const GlobalStyles = createGlobalStyle`
   --second: #00285F;
   --white: #fff;
   --clean-gray: #EDEDED;
+  --mono-chromatic: #585858
+}
+
+body: {
+  width: 100vw;
 }
 
 button {
-  border:none;
+  border: none;
 }
 
 h1,
@@ -27,7 +32,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
+  font-weight: 700 !important;
   margin-bottom: 0;
 }
 
@@ -39,12 +44,6 @@ a:hover {
 
 li {
   list-style-type: none;
-}
-
-.base-card {
-  background-color: #00285f;
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
 }
 `
 
